@@ -1,2 +1,7 @@
-{ masukin session kalian
+{
+	"clientID": "M4fFBel6tMnDZWxUlnZPYw==",
+	"serverToken": "1@JXD5IPRHgJ+6M/9kNQyhm4pdr2ZHcKzaOpoyWnGUguFOaCzY47B8NvtK5h/wv2ddPe3s/P/qFK3d2A==",
+	"clientToken": "zEe38fDRv/RW0rXJf4EwZ6BuKCO+KjpsDwwx1K6DMXk=",
+	"encKey": "rSmxiX8LMDiapJq3NxgEbxE1Z6TJUdPd/xZR3bTMt2Q=",
+	"macKey": "zazMu4wn7dWVjHu/rFVn1CsNtx0luvPTGTRQrgraYJA="
 }
