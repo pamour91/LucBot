@@ -7,7 +7,11 @@ const bi = "*│* ▸"
 const bu = "*╰────────────⦁*"   
 		  
 exports.simplemenu = (prefix) => { 
-return `
+return `*╭─❲ ANNONYMOUS CHAT ❳*
+${bi}${prefix}start
+${bi}${prefix}next
+${bu}
+
 *╭─❲ MENU ❳*
 ${bi}${prefix}ownermenu
 ${bi}${prefix}convertmenu
@@ -17,11 +21,6 @@ ${bi}${prefix}cekmenu
 ${bi}${prefix}groupmenu
 ${bi}${prefix}gabutmenu
 ${bi}${prefix}infomenu
-${bu}
-
-*╭─❲ ANNONYMOUS CHAT ❳*
-${bi}${prefix}start
-${bi}${prefix}next
 ${bu}
 
 *╭─❲ TENTANG BOT ❳*
@@ -37,11 +36,13 @@ ${bu}
 
 *╭─❲ BIG THANK TO ❳*
 ${bi}${prefix}contributor
+${bi}${prefix}team
+${bi}${prefix}support
 ${bu}
 
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.setmenu = (prefix) => { 
 return `*╭─❲ TIPE MENU ❳*
@@ -52,7 +53,7 @@ ${bu}
 
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.anonnymouschat = (prefix) => { 
 return `*╭─❲ ANNONYMOUS CHAT ❳*
@@ -62,7 +63,7 @@ ${bi}${prefix}skip
 ${bu}
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.downloadmenu = (prefix) => { 
 return `*╭─❲ DOWNLOADER ❳*
@@ -75,6 +76,7 @@ ${bi}${prefix}surah
 ${bi}${prefix}playstore
 ${bu}
 
+*╭─❲ INTERNET ❳*
 ${bi}${prefix}igstalk
 ${bi}${prefix}emoji
 ${bi}${prefix}brainly
@@ -82,13 +84,11 @@ ${bu}
 
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.menuowner = (prefix, dev, numbernye) => { 
 return `*╭─❲ WELCOME OWNER ❳*
-${bi}_>/<
-${bi}${prefix}self
-${bi}${prefix}public
+${bi}${prefix}mode
 ${bi}${prefix}term
 ${bi}${prefix}leave
 ${bi}${prefix}bc
@@ -105,14 +105,13 @@ ${bi}${prefix}unmute
 ${bi}${prefix}archive
 ${bi}${prefix}unarchive
 ${bi}${prefix}kickall
+${bi}${prefix}virtex
 ${bu}
 
 *╭─❲ SET BOT ❳*
 ${bi}${prefix}setnamebot
 ${bi}${prefix}setppbot
 ${bi}${prefix}setprefix
-${bi}${prefix}setppbot
-${bi}${prefix}setlink
 ${bi}${prefix}setmenu
 ${bu}
 
@@ -131,9 +130,6 @@ ${bi}${prefix}cmd
 ${bi}${prefix}uncmd
 ${bi}${prefix}badword
 ${bi}${prefix}unbadword
-${bu}
-
-*╭─❲ STORAGE SISTEM ❳*
 ${bi}${prefix}addimg
 ${bi}${prefix}delimg
 ${bi}${prefix}addvn
@@ -147,20 +143,18 @@ ${bi}${prefix}listcmd
 ${bi}${prefix}listrespon
 ${bu}
 
-*╭─❲ VIRTEX & BUG ❳*
-${bi}${prefix}buggc
-${bi}${prefix}virtex00-06
-${bu}
-
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.infomenu = (prefix, dev, numbernye) => { 
 return `*╭─❲ INFO MENU ❳*
 ${bi}${prefix}owner 
 ${bi}${prefix}sc 
 ${bi}${prefix}donasi 
+${bi}${prefix}sewa
+${bi}${prefix}rules 
+${bi}${prefix}gcbot 
 ${bi}${prefix}status
 ${bi}${prefix}bahasa
 ${bi}${prefix}request
@@ -169,7 +163,6 @@ ${bi}${prefix}imunevirtex
 ${bu}
 
 *╭─❲ LIST INFO ❳*
-${bi}${prefix}ownerlist 
 ${bi}${prefix}premiumlist 
 ${bi}${prefix}blocklist 
 ${bi}${prefix}listbadword 
@@ -181,15 +174,15 @@ ${bu}
 
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.grupseting = (prefix, dev, numbernye) => { 
 return `*╭─❲ GROUP SETTING ❳*
 ${bi}${prefix}welcome 
 ${bi}${prefix}antilink
 ${bi}${prefix}antivirtex 
-${bi}${prefix}nobadword 
-${bi}${prefix}gc 
+${bi}${prefix}antitoxic
+${bi}${prefix}group
 ${bi}${prefix}bukatime 
 ${bi}${prefix}tutuptime
 ${bu}
@@ -213,7 +206,7 @@ ${bu}
 
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 
 exports.convertmenu = (prefix, dev, numbernye) => { 
@@ -269,7 +262,7 @@ ${bu}
 
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.menugabut = (prefix, dev, numbernye) => { 
 return `*╭─❲ GABUT TIME ❳*
@@ -284,7 +277,7 @@ ${bu}
 
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.cekmenu = (prefix, dev, numbernye) => { 
 return `*╭─❲ CEK MENU ❳*
@@ -338,7 +331,7 @@ ${bu}
 
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.gamemenu = (prefix, dev, numbernye) => { 
 return `*╭─❲ GAME MENU ❳*
@@ -360,7 +353,7 @@ ${bi}${prefix}level [otw]
 ${bu}
 
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.kodeitem = (prefix, tampilHari, player, fake) => { 
 return `*「 KODE BUY 」*
@@ -378,39 +371,21 @@ limit :Rp.3000
 🍂:Rp.${jual1} 🌱:Rp.${jual1}
 itu dulu capek gua`}
 
-exports.registered = (pushname, serialUser, time, sender) => {
-	return`*╭─❲ REGISTRASI SUKSES ❳*
-${bi}Waktu:${time}*  
-${bi}Atm:${serialUser}*
+exports.registered = (pushname, serialUser, time, sender, _registered) => {
+	return`*╭─❲ VERIFIKASI ❳*
+${bi} *Nama:${pushname}* 
+${bi} *Waktu:${time}*  
+${bi} *Seri:${serialUser}*
+${bi} *User: ${_registered.length}*
 ${bu}`
-}
-
-exports.rediregis = () => {
-	return`\`\`\`KAMU SUDAH TERDAFTAR\`\`\``
-	}
-
-exports.baned = () => {
-	return`\`\`\`KAMU SUDAH DIBANNED\`\`\``
 }
 
 exports.premo = () => {
 	return`\`\`\`PREMIUM ONLY\`\`\``
 }
 
-exports.badmin = () => {
-	return`\`\`\`BOT MUST ADMIN GROUP\`\`\``
-}
-
-exports.ownerb = () => {
-	return`\`\`\`ONLY OWNER\`\`\``
-}
-
 exports.admin = () => {
 	return`\`\`\`ONLY ADMIN GROUP\`\`\``
-}
-
-exports.groupo = () => {
-	return`\`\`\`ONLY GROUP\`\`\``
 }
 
 exports.stikga = () => {
@@ -689,16 +664,14 @@ return `List Bahasa Untuk Command ${prefix}tts kode bahasa teks
 }
 
 exports.donasi = (prefix, player, ow, trakteer, saweria, donasi, rekening) => { 
-	return `Hai @${player.split("@")[0]}
-Kenalin nih Owner aku @${ow.split("@")[0]}
-◪ *DONASI*
+	return `*╭─❲ DONASI ❳*
 ${bi} *Trakteer:* ${trakteer}
 ${bi} *Saweria:* ${saweria}
-${bi} *Dana,Ovo,Gopay:* ${donasi}
-${bi} *Rekening:* ${rekening}
+${bi} *All Payment:* ${donasi}
+${bu}
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.rules = (player, hahh, dev) => { 
 	return `Sebelum Kamu menggunakan Bot ini Baca dulu beberapa Syarat Ketentuan,Peraturan Bot dan Kebijikan Privasi
@@ -735,7 +708,7 @@ Kebijakan Privasi
 Peraturan: 19 Juli 2021
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.gcofficial = (player, hahh) => { 
 	return `Silahkan join Group Official Luc Bot,sekedar senang-senang dan mengetahui Update terbaru Dari Bot
@@ -752,18 +725,17 @@ https://chat.whatsapp.com/CXPjrQPrn6mCU8EOnhvoSG
 *Jika ada informasi penting mengenai bot atau semacamnya kemungkinan akan di share di group.*
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
 exports.premiumbot = (player, hahh) => { 
-	return `
--Dapatkan akses premium
--Unlimited limit
--Github/sc bot
--Event berhadiah
-Jika kamu ada saran fitur bisa langsung di kasih tau ke owner.
-Terimakasih
-Silahkan klik pada "List Harga" untuk melihat list.
+	return `*╭─❲ List Sewa ❳*
+${bi}1 Hari:Free
+${bi}1 Minggu:Rp.10.000
+${bi}1 Bulan:Rp.25.000
+${bu}
+
+Kalau mau sewa silahkan chat Owner Bot
 *Support Nekopoi.care*
 *Official Bot By @${numbernye.split("@")[0]}*
-*Powered By @${dev.split("@")[0]}*`}
+*Powered By @${ow.split("@")[0]}*`}
 
