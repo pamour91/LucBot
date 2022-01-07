@@ -64,15 +64,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/siegrin"
+    "url": "git+https://github.com/siegrin/LucBot"
   },
   "keywords": [
     "botwea"
   ],
-  "author": "Siegrin",
+  "author": "siegrin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LucBot/siegrin"
+    "url": "https://github.com/siegrin/LucBot"
   },
   "homepage": "https://github.com/siegrin"
 }
